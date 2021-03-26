@@ -1,6 +1,7 @@
 a:link {
   text-decoration: none;
   transition: 0.5s;
+  color: inherit;
 }
 
 a:visited {
