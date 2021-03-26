@@ -186,5 +186,9 @@ h1 {
 }
 
 .sns-area {
-  padding-left: 50%;
+  padding-right: 0.5em;
+}
+
+.sns-area a{
+  float: right;
 }
