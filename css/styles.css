@@ -36,6 +36,13 @@ h1 {
   padding-left: 0.5em;
   font-size: 3vw;
   border-bottom: solid 2px white;
+  color: white;
+  transition: background 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+.about-area:hover span {
+  color: rgb(255, 165, 0);
 }
 
 .body-title {
@@ -70,16 +77,6 @@ h1 {
 .exp-thumb_img {
   width: 100%;
   height: auto;
-}
-
-.about-area {
-  color: white;
-  transition: background 0.5s ease-in-out,
-    color 0.5s ease-in-out;
-}
-
-.about-area:hover span {
-  color: rgb(255, 165, 0);
 }
 
 .resume {
