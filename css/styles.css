@@ -39,6 +39,7 @@ body {
   margin-bottom: 25px;
   float: right;
   cursor: pointer;
+  font-family: 'Space Mono', monospace;
 }
 
 .about-area {
@@ -149,9 +150,9 @@ body {
 }
 
 .project-intro {
-  margin-top: 4em;
+  margin-top: 10px;
   margin-bottom: 1em;
-  margin-left: 0.5em;
+  margin-left: 10px;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -162,17 +163,23 @@ body {
 }
 
 .project-intro-h2 {
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
   font-size: 16px;
 }
 
 .project-intro-tag {
-  font-size: 1.2em;
+  font-size: 16px;
+  float: right;
+}
+
+.project-link {
+  margin-bottom:10px;
+  font-size: 16px;
 }
 
 .project-main {
-  margin-left: 0.5em;
+  margin-left: 10px;
   color: inherit;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -193,7 +200,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: auto;
-  margin-bottom: 1em;
+  margin: 10px;
 }
 
 .project-picture {
@@ -234,6 +241,48 @@ body {
   float: right;
 }
 
+.design-wrapper {
+  margin: 15px;
+}
+
+.design-img { 
+  position: relative; 
+  aspect-ratio: 1 / 1.414; 
+  overflow: hidden; 
+} 
+
+.p3design-img { 
+  position: relative; 
+  aspect-ratio: 2.2 / 1; 
+  overflow: hidden; 
+} 
+
+.design-img img { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  width: 95%; 
+  height: auto; 
+}
+
+.p3design-img img { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  width: auto; 
+  height: 100%; 
+  border: 3px solid #ededed;
+}
+
+.section-area {
+  margin : 10px;
+}
+
+
  
 @media (min-width: 640px) {
   .about-area {
@@ -263,6 +312,9 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, minmax(auto-fit, 1fr));
     border-bottom: solid 2px white;
+  }
+  .project-intro-h2 {
+    font-size: 28px;
   }
   .project-img {
     display: grid;
@@ -304,11 +356,21 @@ body {
     font-size: 40px;
   }
   .project-intro-h2 {
-    font-size: 24px;
+    font-size: 32px;
   }
   .project-img {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-  
+  .design-img { 
+    position: relative; 
+    aspect-ratio: 1 / 1.1; 
+    overflow: hidden; 
+  } 
+  .design-img img { 
+    position: absolute; 
+    width: 75%; 
+    height: auto; 
+    margin-left: 5px;
+  }
 }
