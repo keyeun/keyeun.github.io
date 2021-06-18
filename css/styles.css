@@ -242,18 +242,18 @@ body {
 }
 
 .design-wrapper {
-  margin: 15px;
+  margin: 10px;
 }
 
 .design-img { 
   position: relative; 
-  aspect-ratio: 1 / 1.414; 
+  padding-top: 140%; 
   overflow: hidden; 
 } 
 
 .p3design-img { 
   position: relative; 
-  aspect-ratio: 2.2 / 1; 
+  padding-top: 45%; 
   overflow: hidden; 
 } 
 
@@ -362,15 +362,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-  .design-img { 
-    position: relative; 
-    aspect-ratio: 1 / 1.1; 
-    overflow: hidden; 
-  } 
   .design-img img { 
     position: absolute; 
     width: 75%; 
     height: auto; 
     margin-left: 5px;
   }
+
+  .design-img { 
+    padding-top: 120%; 
+  } 
 }
