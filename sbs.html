@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>🥰Hello, KeyEun!</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, Keyeun!</title>
+    <meta name="viewport"
+      content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico">
+    <script src="./js/movePage.js"></script>
+  </head>
 
 <body style="background-color: white; color:rgb(0,115,164);">
   <header class="header">
-    <img src="img/profile.png" alt="profile">
-    <h1>KeyEun Lee</h1>
+    <div class="profile">
+      <img src="./img/profile.png" alt="profile">
+    </div>
+    <div class="myname">
+      <p1 id="title">Keyeun Lee</h1>
+    </div>
     <div class="menu">
-      <span id="menu-exp"><strong>Experience</strong></span>
-      <span id="menu-resume"><strong>Resume</strong></span>
+      <span id="menu-home" onclick="moveToHome()"><strong>Home</strong></span>
+      <span id="menu-exp" onclick="moveToProject()"><strong>Project</strong></span>
     </div>
   </header>
   <div class="project-intro">
     <div class="project-intro-title">
       <div class="border-10" style="border-color:rgb(0,115,164);"></div>
-      <h2 class="project-intro-h2">Intern in SBS Data Journalism Team</h2><br>
+      <h2 class="project-intro-h2">Projects in SBS Data Journalism Team</h2><br>
       <a href="https://news.sbs.co.kr/news/newsPlusList.do?themeId=10000000114">https://news.sbs.co.kr/news/newsPlusList.do?themeId=10000000114</a><br>
       <a href="https://brunch.co.kr/@kieunp/8">https://brunch.co.kr/@kieunp/8</a>
       <div class="border-10" style="border-color:rgb(0,115,164);"></div>
@@ -50,7 +59,7 @@
   <div class="project-img">
     <div class="project-img-container">
       <a href="https://mabu.newscloud.sbs.co.kr/abandoned_pets/">
-        <img class="project-picture" src="img/sbs1.jpg" alt="">
+        <img class="project-picture" src="./img/sbs1.jpg" alt="">
       </a>
     </div>
     <div class="project-img-ex">
@@ -59,7 +68,7 @@
     </div>
     <div class="project-img-container">
       <a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1006140329">
-        <img class="project-picture" src="img/sbs2.jpg" alt="">
+        <img class="project-picture" src="./img/sbs2.jpg" alt="">
       </a>
     </div>
     <div class="project-img-ex">
@@ -69,7 +78,7 @@
     </div>
     <div class="project-img-container">
       <a href="https://mabu.newscloud.sbs.co.kr/upchubi/">
-        <img class="project-picture" src="img/sbs3.jpg" alt="">
+        <img class="project-picture" src="./img/sbs3.jpg" alt="">
       </a>
     </div>
     <div class="project-img-ex">
@@ -78,7 +87,7 @@
     </div>
     <div class="project-img-container">
       <a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005969193">
-        <img class="project-picture" src="img/sbs4.jpg" alt="">
+        <img class="project-picture" src="./img/sbs4.jpg" alt="">
       </a>
     </div>
     <div class="project-img-ex">
@@ -88,7 +97,7 @@
     </div>
     <div class="project-img-container">
       <a href="https://page.stibee.com/archives/56136">
-        <img class="project-picture" src="img/sbs5.png" alt="">
+        <img class="project-picture" src="./img/sbs5.png" alt="">
       </a>
     </div>
     <div class="project-img-ex">
