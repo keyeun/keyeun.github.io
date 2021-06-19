@@ -209,6 +209,7 @@ body {
 .project-picture {
   width: 100%;
   height: auto;
+  margin-right: 10px;
 }
 
 .project-img-ex {
