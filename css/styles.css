@@ -151,7 +151,7 @@ body {
 }
 
 .project-intro {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 1em;
   margin-left: 10px;
   display: grid;
@@ -184,7 +184,6 @@ body {
   margin-left: 10px;
   color: inherit;
   display: grid;
-  grid-template-columns: 2fr 1fr;
 }
 
 .project-main-article {
@@ -227,6 +226,7 @@ body {
 
 .project-tool {
   margin: 20px;
+  font-size:20px;
 }
 
 .footer {
@@ -433,10 +433,27 @@ body {
   .project-intro-h2 {
     font-size: 32px;
   }
+
+  .project-intro-tag {
+    font-size: 20px;
+  }
+
+  .project-main {
+    margin-left: 10px;
+    color: inherit;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .project-main-article {
+    font-size: 20px;
+  }
+
   .project-img {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+
   .design-img img { 
     position: absolute; 
     width: 75%; 
@@ -445,7 +462,7 @@ body {
   }
 
   .design-img { 
-    padding-top: 120%; 
+    padding-top: 110%; 
   } 
   .p1-img-container {
     display: grid;
