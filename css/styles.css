@@ -227,6 +227,7 @@ body {
 .project-tool {
   margin: 20px;
   font-size:20px;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -341,7 +342,6 @@ body {
 .p3-design-wrapper {
   margin: 10px;
   position: relative; 
-  padding-top: 10%; 
   overflow: hidden; 
 }
 
